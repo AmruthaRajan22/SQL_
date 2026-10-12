@@ -1,0 +1,25 @@
+Q1. DISTINCT
+Display all the unique department names in the table.
+SELECT DISTINCT Department
+FROM Employees;
+
+Q2. WHERE with comparison
+Display the names and salaries of employees earning more than ₹35,000.
+SELECT Name, Salary
+FROM Employees
+WHERE Salary>35000;
+
+Q3. ORDER BY Display all employees in order of salary, from highest to lowest.
+SELECT Name
+FROM Employees
+ORDER BY Salary DESC;
+
+Q4. COUNT() Find the total number of employees in the table.
+SELECT COUNT(*)
+FROM Employees;
+
+Q5. UPDATE Change Ravi's salary to 30000.
+these questions
+UPDATE Employees
+SET Salary=30000
+WHERE ID=2;
